@@ -1,0 +1,6 @@
+{
+  "name": "Central Core Pilates",
+  "description": "Premium boutique Pilates studio prioritizing equilibrium, posture, and core strength, with interactive bookings, gallery tours, and wellness assessments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

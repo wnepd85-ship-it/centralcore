@@ -1,0 +1,46 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Nanum Myeongjo", serif;
+  --font-sans: "Pretendard", "Plus Jakarta Sans", "Inter", sans-serif;
+  
+  --color-brand-primary: #34270f;
+  --color-brand-on-primary: #ffffff;
+  --color-brand-background: #fff8f3;
+  --color-brand-surface: #fff8f3;
+  --color-brand-on-surface: #211b11;
+  --color-brand-surface-low: #fff2e2;
+  --color-brand-surface-container: #faecdb;
+  --color-brand-surface-highest: #eee1d0;
+  --color-brand-primary-container: #4b3d23;
+  --color-brand-on-surface-variant: #4c463c;
+  --color-brand-secondary: #AABCC6;
+  --color-brand-on-secondary: #211b11;
+  --color-brand-secondary-container: #e6eff4;
+  --color-brand-on-secondary-container: #566770;
+  --color-brand-tertiary: #685e3b;
+  --color-brand-tertiary-container: #b7ab81;
+}
+
+/* Custom fade-in and smooth scroll details */
+.glass-effect {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.custom-pulse {
+  animation: softPulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes softPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.15;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.25;
+  }
+}
